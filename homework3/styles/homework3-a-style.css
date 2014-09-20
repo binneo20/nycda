@@ -1,0 +1,115 @@
+
+@font-face {
+    font-family: 'Headline Text';
+    src: url('fonts/Headlinetext.ttf');   
+}
+
+
+* {
+    font-family: 'Georgia', serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+html, body {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    }
+
+h1{
+    text-align: center;
+    font-family: 'Headline Text', serif;
+    font-size: 4em;
+    font-weight: 200;
+    padding: 20px 0 20px 0;
+    margin: 10px;
+    opacity: .8;
+}
+
+.nav{    background-color: #E3DDD1; 
+    padding: 10px 0 10px 0;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+    position: relative;
+}
+
+
+.nav li a { font-size: 9pt;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav li:hover { 
+    background-color: #FFFFFF;
+   
+}
+
+.nav li:active {
+    background-color: red;
+}
+
+
+.container { width: 90%;    max-width: 1440px;
+
+    margin: 0 auto;
+    padding: 20px;
+    overflow: auto;
+}
+
+
+#sidebar { width:250px; height: 160px;
+    display: inline-block;
+    float: left; position: fixed;
+    border: 1px solid black;  
+    padding: 10px; background-color: white;
+}
+
+
+.facebookblurb { display: inline-block; width:250px; float: left;
+    text-align: left;
+    opacity: .95;
+    background: rgb(61,91,152);
+    height: 55px;
+}
+
+.facebookblurb a { 
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 20px 0 0 40px;
+    display: block;
+    font-size: 13px;
+    background: url(../images/facebook.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 0 10px;
+    height: 55px;
+    font-weight: bold;
+}
+
+.facebookblurb #share {display: block; vertical-align: left;}
+
+
+.main { 
+    display: inline-block; margin-left: 290px; 
+    float: left;
+    padding: 20px;
+    box-shadow: 0 1px 2px gray; position: relative;
+    min-width: 260px;
+    max-width: 1200px;
+
+}
+
+h2 {font-size: 22pt;}
+h3 {text-transform: uppercase; font-size: 9pt;}
+
+p{font-size: 11pt;}
+
+
